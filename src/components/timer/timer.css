@@ -1,0 +1,32 @@
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(circle, #5d1a78, #414b50);
+}
+
+.contant {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.time {
+  border: 1px solid black;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  background-color: #e08dc7;
+}
+
+.button {
+  margin: 5px;
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #e08dc7;
+}
